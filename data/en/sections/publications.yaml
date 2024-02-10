@@ -12,71 +12,67 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Computational Modeling"
+  filter: "computational-modeling"
+- name: "Plasma-liquid interactions"
+  filter: "plasma-liquid-interactions"
+- name: "Phase Change Materials"
+  filter: "pcm"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Modeling of reactive species interphase transport in plasma jet impinging on water
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: "Journal of Physics D: Applied Physics"
+    date: 29 Sep 2023
+    url: https://doi.org/10.1088/1361-6463/acf86a
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Dr. Kamidollayev
+    url: https://scholar.google.com/citations?user=3v8mUFcAAAAJ&hl=en
+  - name: Dr. Trelles
+    url: https://scholar.google.com/citations?user=_9vN4aMAAAAJ&hl=en
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: The interaction between low-temperature atmospheric pressure plasma and water is of primary relevance to an increasing number of applications, from water treatment to medicine. The interaction between an argon plasma jet and water is investigated using a three-dimensional (3D) time-dependent computational model encompassing turbulent gas flow and induced liquid motion, gas–water interface dynamics, multiphase species transport, and gas- and liquid-phase chemical reactions. A single-field approach based on the volume-of-fluid (VoF) method together with conditional volume averaging (CVA), is used to consistently describe the dynamics of the interface together with interfacial reactive mass transfer. Three CVA-based interface species transport models, based on arithmetic, harmonic, and unified mixture species diffusivities, are evaluated. Simulations of a plasma jet impinging on water at different gas flow rates are presented. The resulting deformation of the interface and the production and accumulation of hydrogen peroxide, reactive oxygen, and nitrogen species corroborate prior findings in the research literature showing that higher jet velocities and associated increased interface deformation led to the enhanced transport of reactive species across the plasma-water interface. The VoF-CVA approach appears promising for the modeling of general plasma-liquid multiphase systems.
+    url: https://iopscience.iop.org/article/10.1088/1361-6463/acf86a/meta
+  categories: ["computational-modeling","plasma-liquid-interactions"]
+  tags: ["Computational Modelingg", "Plasma-liquid interaction"]
 
-- title: An Sample Paper on Image Processing
+- title: Parametric Study of Panel PCM–Air Heat Exchanger Designs
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Energies
+    date: 30 July 2022
+    url: https://doi.org/10.3390/en15155552
   authors:
-  - name: Dr. Madman
+  - name: Dr. Kamidollayev 
+    url: https://scholar.google.com/citations?user=3v8mUFcAAAAJ&hl=en
+  - name: Dr. Trelles 
+    url: https://scholar.google.com/citations?user=_9vN4aMAAAAJ&hl=en
+  - name: Dr. Thakkar 
     url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Dr. Kosny 
+    url: https://scholar.google.com/citations?user=h0ZCmLsAAAAJ&hl=en&oi=ao
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+    summary: Heat exchangers, devices for the transfer of heat between two or more working fluids, are extensively used in cooling applications and heating applications. Heat exchangers in buildings are typically components of space-conditioning systems, as well as of water-heating applications. Heat exchangers are also sometimes used in applications that require storage and release of energy at specific times. Phase change materials (PCMs) enhance these heat-exchange processes, given their ability to melt and solidify at a fixed range of temperatures, absorbing or releasing significant amounts of latent heat. Five different configurations of PCM–air heat exchangers for thermal control in buildings are analyzed in this work. The heat exchangers were fitted with PCM encapsulated in plastic and composite pouches of various shapes, and packaged in stackable panel layers. Three-dimensional computational fluid dynamics (CFD) modeling of coupled incompressible fluid and conjugate heat transfer were performed on the designs. The phase change process was numerically modelled using the apparent heat capacity method. Steady-state CFD simulations provided quantification of pressure drop as a function of air flow velocity. Transient simulation results describe the thermal evolution of PCM in the pouches, helping to determine the best performing configuration with respect to total thermal charging time.
     url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+  categories: ["computational-modeling","pcm"]
+  tags: ["Computational Modelingg", "Phase Change Materials"]
 
-- title: An Example Paper on Security
+- title: Dynamic Thermal Performance Analysis of PCM Products Used for Energy Efficiency and Internal Climate Control in Buildingsy
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
+    name: Buildings 
+    date: 12 June 2023
     url: https://example.com
   authors:
-  - name: Dr. Madman
+  - name: Dr. Kosny 
+    url: https://scholar.google.com/citations?user=h0ZCmLsAAAAJ&hl=en&oi=ao
+  - name: Dr. Thakkar 
     url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Dr. Kamidollayev 
+    url: https://scholar.google.com/citations?user=3v8mUFcAAAAJ&hl=en
+  - name: Dr. Trelles 
+    url: https://scholar.google.com/citations?user=_9vN4aMAAAAJ&hl=en
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: PCMs are attractive for the future generation of buildings, where energy efficiency targets and thermal comfort expectations are increasingly prioritized. Experimental analysis of local thermal processes in these dynamic components and whole-building energy consumption predictions are essential for the proper implementation of PCMs in buildings. This paper discusses the experimental analysis of the thermophysical characteristics of both a latent heat storage material (PCM) and a product containing this PCM. The prototype product under investigation is a panelized PCM technology containing inorganic, salt-hydrate-based PCM. The thermal analysis includes studies of melting and freezing temperatures, enthalpy changes during phase change processes, nucleation intensity, sub-cooling effects, and PCM stability. The PCM’s stability is also investigated, as is the ability of PCM products to control local temperatures and peak load transmission times. Two inorganic PCM formulations based on calcium chloride hexahydrate (CaCl2.6H2O) were prepared and tested in laboratory conditions. Material-scale testing results were compared with outcomes from the system-scale analysis, using both laboratory test methods as well as field exposure in test huts. This work demonstrates that PCM technologies used in buildings can effectively control both the magnitude of thermal storage capacity as well as the time of the peak thermal load. It was found that commonly used material-scale testing methods may not always be beneficial in assessing the dynamic thermal performance characteristics of building technologies containing PCMs.
+    url: https://doi.org/10.3390/buildings13061516
+  categories: ["computational-modeling","pcm"]
+  tags: ["Computational Modelingg", "Phase Change Materials"]
